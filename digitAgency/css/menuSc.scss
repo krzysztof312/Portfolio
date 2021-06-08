@@ -1,0 +1,434 @@
+.uperMeu{
+     list-style-type: none;
+     padding: 1em;
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+    
+    li{
+        
+        display: inline;
+        padding-left: 0.8em;
+        text-decoration: none;
+    }
+    
+    
+}
+.menuAlign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+@mixin justHW{
+    
+    display:flex;
+    justify-content: center;
+    text-align: center;
+        
+}
+
+.logoWraper{
+    @include justHW;
+    padding: 1em 0em;
+    
+}
+
+
+.mainBaner{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../gallery/slider-4.jpg');
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.mainBanerContent{
+    padding-top: 12em;
+    padding-bottom: 14em;
+    padding-left: 6em;
+    color:white;
+    
+    h1{
+        padding: 0em 0em;
+        font-weight: bold;
+        font-size: 110px;
+        margin: 0px;
+    }
+    button{
+        margin-top: 2em;
+        border-radius: 30px;
+        padding: 0.7em 2em;
+    }
+    h6{
+        font-size: 22px;
+        margin: 0px;
+        
+        span{
+             border-top: 3px solid red;
+            padding-top: 11px;
+             box-shadow: 0px;
+        }
+    }
+    
+    
+}
+.iconsBaner{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 0em;
+    div{
+        width: 50%;
+        color:white;
+    }
+    div:first-child{
+        
+    }
+    div:last-child{
+        text-align: right;
+    }
+}
+@mixin contCard{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    color:black;
+    
+    h1{
+        padding: 0em 0em;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 0px;
+         span{
+             border-top: 3px solid red;
+            padding-top: 11px;
+             box-shadow: 0px;
+        }
+    }
+    button{
+        margin-top: 2em;
+        border-radius: 30px;
+        padding: 0.7em 2em;
+        color:white;
+    }
+    h6{
+        font-size: 18px;
+        margin: 0px;
+        color:red;
+        font-weight: bold;
+        padding-bottom: 1em;
+        width: 100%;
+        
+        span{
+             border-top: 3px solid red;
+            padding-top: 11px;
+             box-shadow: 0px;
+        }
+    }
+    p{
+        padding-right: 1.5em;
+        
+    }
+    
+}
+
+.cardInfo{
+   @include contCard;
+   
+    
+}
+.imgJust{
+    @include justHW;
+    
+}
+.infoWraper{
+     @include justHW;
+    text-align: left;
+    
+    @media only screen and (max-width: 760px) {
+     padding-bottom: 2em;
+}
+}
+.cardRow{
+    padding: 5em 0em;
+}
+.disc{
+   @include justHW; 
+    text-align: left;
+    h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.card{
+    padding: 30px;
+.ser:before {
+    font-size: 60px !important;
+}
+    h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+.colSerw{
+    padding:15px;
+}
+.spacerLine{
+    border-bottom: 1px solid black;
+    padding: 1em 15px;
+}
+.spacerLine2{
+    border-rop: 1px solid black;
+    padding: 1em 15px;
+}
+.counter{
+    
+    @media only screen and (max-width: 760px) {
+     justify-content: flex-start;
+}
+    
+    
+    
+     @include justHW;
+    text-align: left;
+    flex-wrap: nowrap;
+    
+    div:first-child{
+        display: flex;
+    align-items: center;
+        font-weight: bold;
+        font-size: 3.5em;
+        
+    }
+     div:last-child{
+          display: flex;
+    align-items: center;
+         font-size: 1em;
+         line-height:17px;
+         padding-left: 0.5em;
+         color:red;
+        
+    }
+}
+.serviWrapper{
+    padding: 5em 0em;
+    
+}
+.sectionBackgraund{
+    background-color: rgb(243,243,243);
+    
+}
+.cardTest{
+    
+    @media only screen and (max-width: 760px) {
+     margin-bottom: 15px;
+}
+  padding: 1.4em;
+    background-color: rgb(243,243,243);
+    border-radius: 15px;
+    h3{
+        margin: 0px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    span{
+        padding-bottom: 1em;
+        text-align: center;
+        color:red;
+    }
+    p{
+        font-size: 13px;
+    }
+    @include justHW;
+    flex-direction: column;
+    img{
+        padding: 2em 0em;
+        margin:auto;
+            border-radius: 50%;
+    max-width: 90px;
+    }
+    
+}
+.secendMenu{
+     @include justHW;
+    color:black;
+    li{
+         @include justHW;
+        align-items: center;
+    }
+}
+.colSecMen{
+    display: flex;
+    justify-content: flex-end;
+}
+.elem{
+     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../gallery/01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 2.5em;
+    padding-top: 8em;
+    border-radius: 20px;
+    .buton{
+        
+        background-color: black;
+        border-radius: 50%;
+            border-radius: 50%;
+        padding: 30px;
+        width: 30px;
+        position:relative;
+        
+        
+    }
+    .buton:before{
+            position: absolute;
+        transform: translate(-50%, -50%);
+        }
+    h5{
+        padding-top: 0.5em;
+        margin: 0px;
+    }
+    p{
+        margin: 0px;
+    }
+}
+.portWrap{
+    padding: 15px;
+}
+.rowSec{
+    margin: 3em 0px;
+   padding: 4em 0em;}
+.sibscribe{
+     @include justHW;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    width: 70%;
+    margin:auto;
+    padding: 4em 0em;
+    h1{
+        margin:auto;
+    }
+    input{
+        border-radius: 40px;
+        padding: 1em;
+    }
+    button{
+        margin-top: 1.3em;
+        width: 15%;
+        margin:1.3em auto;
+        border-radius: 15px;
+        
+        @media only screen and (max-width: 760px) {
+      width: 80%;
+}
+    }
+}
+.tesCon{
+    margin-top: 3em;
+}
+.elemCard{
+    @media only screen and (max-width: 760px) {
+     margin-bottom: 15px;
+}
+    
+    padding: 2em;
+    background-color: rgb(239,239,239);
+    border-radius: 5px;
+    h1{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 38px;
+    }
+    p:first-of-type{
+            font-size: 13px;
+    font-weight: 600;
+    }
+    h5{
+            font-weight: 700;
+    
+        font-size: 16px;
+        margin: 0px;
+        color:red;
+            padding: 3em 0em 1em 0em;
+    }
+     p:last-of-type{
+                font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 26px;
+    line-height: 32px;
+         
+    }
+}
+.mapa{
+    max-width: 100%;
+    margin:auto;
+    height: 300px;
+    width: 100%;
+}
+.mapWrap{
+    margin:5em 0em;
+    padding: 5em 0em;
+    margin-bottom: 0px;
+}
+.socIcon {
+    
+     @include justHW; 
+}
+.socIcon span{
+    @include justHW; 
+    color:white;
+    padding: 1em;
+}
+.socIcon span:before{
+       display: flex;
+    align-items: center;
+}
+.iconsBaner{
+    padding: 1em;
+    
+}
+.footerLast{
+    color:white;
+     @include justHW; 
+    flex-wrap: wrap;
+    p{
+        width: 100%;
+        margin: 0px;
+    }
+    div{
+         display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+.sectionBackgraund2{
+    background-color: black;
+}
+.obrLog{
+    width: 70%;
+}
+.perInfo{
+    padding: 1em;
+    @include justHW; 
+    flex-wrap: wrap;
+    span{
+        width: 100%;
+        color:#797979;
+    }
+}
+.perRow{
+    padding-bottom: 4em;
+}
+
+
+
+@media only screen and (max-width: 760px) {
+     
+}

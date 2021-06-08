@@ -1,0 +1,453 @@
+@font-face {
+  font-family: 'Droid Sanss';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/drSans.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Cous';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Cous.woff2) format('woff2'); 
+}
+
+@font-face {
+  font-family: 'Droid Sherif';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/droidSherif.woff2) format('woff2'); 
+}
+
+
+.menuWraper{
+    background-color: white;
+}
+
+
+.subMenu{
+    overflow: hidden;
+    transition: max-height 0.1s ease-out;
+    max-height: 0px;
+   background-color: white;
+}
+.searchBarWraper{
+        overflow: hidden;
+    transition: max-height 0.1s ease-out;
+    max-height: 0px;
+   background-color: white;
+}
+    
+}
+
+.menuUl{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menuLeft{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menuRight{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menuLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Droid Sherif'
+}
+.menuWraper{
+    height: 5em;
+   
+}
+.menuLogo span{
+     font-family: druid;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.mainBanner{
+    
+    background-image: url("../gallery/mainBaner.jpg");
+    background-repeat: no-repeat;
+     background-position: center;
+      background-size: cover;
+    height: 35em;
+    display: flex;
+    align-items: center;
+}
+.mainBanerContent{
+ padding-left: 8em;
+     color:white;
+}
+.mainBanerContent h1{
+   
+    font-size: 3.5em;
+    font-family:  'Droid Sherif';
+    font-weight: bold;
+    
+}
+.mainBanerContent p{
+    padding: 1em 0px;
+    font-family: 'Droid Sanss';
+   
+    
+}
+.experienceRow{
+    
+    padding: 8em 0px;
+}
+.mainBanerContent button{
+    font-family:  druid;
+    border-radius: 0px;
+    background-color: #333333;
+    border:0px;
+    font:14px;
+    font-weight: bold;
+    padding: 0.6em;
+}
+.leftIMG{
+    
+    max-height: 55em;
+    max-width: 25em;
+}
+.imgLeftCol{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.contentRightCol{
+     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+     max-width: 30em;
+    
+}
+.contentRightColWrapper h3{
+    font-family: 'Droid Serif';
+    color:#DA8044;
+    
+}
+.contentRightColWrapper h2{
+    padding-top: 0.2em;
+    font-family:'Lato';
+    font-weight: bold;
+}
+.contentRightColWrapper p{
+        color:#818181;
+    line-height: 1.8em;
+     
+    
+}
+.contentRightColWrapper button{
+    width: 60%;
+    color:black;
+    border:solid 1px black;
+    background-color: white;
+    border-radius: 0px;
+    margin-top: 2em;
+}
+.miniMenuContent{
+    width: 30em;
+}
+.miniMenuContent p{
+    padding: 1em 0px;
+     
+    
+}
+.miniMenuContent h3{
+    color:#DA8044;
+          font-family: 'Droid Serif';
+    
+    
+}
+.miniMenuContent h2{
+     font-family: 'Lato';
+    font-weight: bold;
+    
+}
+.tabMennu td{
+    padding: 0.4em;
+  
+}
+
+.tabMennu tbody tr{
+     font-weight: bold;
+    
+}
+.tabMennu tr td:nth-child(2) {
+  padding-left: 8em;
+    color:#DA8044;
+}
+.sliderWithMenu{
+    background-image: url('../gallery/burgery.png');
+     background-repeat: no-repeat;
+     background-position: center;
+      background-size: cover;
+    height: 40em;
+}
+.columnWithMenu{
+    
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+.ingridientsWrapper h3{
+    font-family: pochyle;
+}
+
+.descriptionIngr{
+    display: flex;
+    align-items: center;
+
+    height: 45em;
+    
+    background-image: url('../gallery/sos.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.ingridientsWrapper h2{
+    font-weight: bold;
+}
+
+
+.ingridientsWrapper h3{
+   text-align: center;
+    padding: 0px;
+      color:#DA8044;
+       font-family: 'Droid Serif';
+    
+}
+
+.ingridientsWrapper h1{
+   text-align: center;
+    font-family: 'Lato';
+    font-weight: bold;
+    
+    
+}
+
+.ingridientsWrapper p{
+    padding-top: 2em;
+   text-align: center;
+    max-width: 45em;
+    margin:auto;
+    line-height: 33px;
+    color: #888888;
+}
+
+.spacer{
+    background-image: url('../gallery/spacer.png');
+    background-position: center;
+    background-size: cover;
+    height: 18em;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.spacer h1{
+    text-align: center;
+    color:white;
+     font-family: 'Lato';
+    font-weight: bold;
+    
+}
+.endTitlr {
+    text-align: center;
+    padding-bottom: 3em;
+    
+    
+}
+.endTitlr h1{
+    font-family: 'Lato';
+    font-weight: bold;
+}
+.endTitlr h3{
+     color:rgb(218,128,68);
+    font-family: 'Droid Serif';
+}
+.hour{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hour p{
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+}
+.hour h3{
+    color:rgb(218,128,68);
+    text-align: center;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+}
+.findshopRow{
+    
+    padding: 4em 0px;
+}
+.persData p{
+    text-align: left;
+    line-height: 1.7em;
+    color:rgb(129,129,129);
+}
+
+.persData h3{
+    text-align: left;
+}
+.map{
+    padding-top: 3em;
+}
+.persDataRow{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.spacerSec{
+    min-height: 2em;
+}
+.footer{
+    
+    height: 10em;
+    background-color: #F2F2F2;
+}
+.footerElem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerElem a{
+    color:rgb(136,136,136);
+        font-family: 'Cous';
+    
+    font-size: 19px;
+}
+.footerElem a:link {
+  color:rgb(136,136,136);
+}
+
+.footerElem a:visited {
+   color:rgb(136,136,136);
+}
+
+
+.footerElem a:hover {
+   color:rgb(136,136,136);
+}
+
+
+.footerElem a:active {
+   color:rgb(136,136,136);
+}
+.footerElem a:hover {
+  text-decoration: none;
+}
+
+.zdj{
+    padding: 0px;
+}
+.zdj img{
+    padding: 1px;
+}
+.colSubmenu ul li{
+    display:inline;
+    margin-right: 1em;
+    
+}
+.colSubmenu ul{
+    margin-left: 0px;
+    padding-left: 0px;
+ 
+    
+}
+.colSubmenu{
+    padding: 0px;
+}
+
+
+
+.colSubmenu ul li a{
+    display:inline;
+    margin-right: 1em;
+     color:rgb(136,136,136);
+        font-family: 'Cous';
+    
+}
+
+
+.colSubmenu ul li a:link {
+  color:rgb(136,136,136);
+}
+
+.colSubmenu ul li a:visited {
+   color:rgb(136,136,136);
+}
+
+
+.colSubmenu ul li a:hover {
+   color:rgb(136,136,136);
+}
+
+
+.colSubmenu ul li a:active {
+   color:rgb(136,136,136);
+}
+.colSubmenu ul li a:hover {
+  text-decoration: none;
+}
+.menuWraper {
+    
+}
+.scrollbar-measure {
+	width: 100px;
+	height: 100px;
+	overflow: scroll;
+	position: absolute;
+	top: -9999px;
+}
+.blurUnderMenu{
+    position:fixed;
+    width: 100%;
+    left:0px;
+   
+    z-index: 9999;
+    height: 0px;
+     transition:background-color 0.5s;
+    
+}
+.searchBarWraper{
+
+}
+.colSear{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.colSear form{
+    width: 70%;
+    margin:30px 0px;
+    text-align: center;
+}
+.colSear form h5{
+    font-weight: lighter;
+    text-align: left;
+}
+.searchBar{
+    width: 100%;
+    height:60px;
+    border:black solid 2px;
+    font-size: 2em;
+    font-family: "Cous";
+    color:rgb(169,169,169);
+    opacity: 0.5;
+}
